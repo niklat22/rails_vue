@@ -1,0 +1,54 @@
+{
+  "application.js": "/packs/js/application-4ba92c28adf07cd9af65.js",
+  "application.js.map": "/packs/js/application-4ba92c28adf07cd9af65.js.map",
+  "entrypoints": {
+    "application": {
+      "js": [
+        "/packs/js/application-4ba92c28adf07cd9af65.js"
+      ],
+      "js.map": [
+        "/packs/js/application-4ba92c28adf07cd9af65.js.map"
+      ]
+    },
+    "router/index": {
+      "js": [
+        "/packs/js/router/index-a4ea4d824b68e63717af.js"
+      ],
+      "js.map": [
+        "/packs/js/router/index-a4ea4d824b68e63717af.js.map"
+      ]
+    },
+    "views/UsersIndex": {
+      "js": [
+        "/packs/js/views/UsersIndex-1d9f91704654cd36f75d.js"
+      ],
+      "js.map": [
+        "/packs/js/views/UsersIndex-1d9f91704654cd36f75d.js.map"
+      ]
+    },
+    "vuex/index": {
+      "js": [
+        "/packs/js/vuex/index-f0852fb59acbc0a277bc.js"
+      ],
+      "js.map": [
+        "/packs/js/vuex/index-f0852fb59acbc0a277bc.js.map"
+      ]
+    },
+    "vuex/user": {
+      "js": [
+        "/packs/js/vuex/user-8065a256b2917e6e11ee.js"
+      ],
+      "js.map": [
+        "/packs/js/vuex/user-8065a256b2917e6e11ee.js.map"
+      ]
+    }
+  },
+  "router/index.js": "/packs/js/router/index-a4ea4d824b68e63717af.js",
+  "router/index.js.map": "/packs/js/router/index-a4ea4d824b68e63717af.js.map",
+  "views/UsersIndex.js": "/packs/js/views/UsersIndex-1d9f91704654cd36f75d.js",
+  "views/UsersIndex.js.map": "/packs/js/views/UsersIndex-1d9f91704654cd36f75d.js.map",
+  "vuex/index.js": "/packs/js/vuex/index-f0852fb59acbc0a277bc.js",
+  "vuex/index.js.map": "/packs/js/vuex/index-f0852fb59acbc0a277bc.js.map",
+  "vuex/user.js": "/packs/js/vuex/user-8065a256b2917e6e11ee.js",
+  "vuex/user.js.map": "/packs/js/vuex/user-8065a256b2917e6e11ee.js.map"
+}
