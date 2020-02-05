@@ -70,7 +70,7 @@ GEM
     nio4r (2.5.2)
     nokogiri (1.10.7)
       mini_portile2 (~> 2.4.0)
-    postgres-pr (0.7.0)
+    pg (1.2.2)
     rack (2.1.2)
     rack-cors (1.1.1)
       rack (>= 2.0.0)
@@ -146,7 +146,7 @@ PLATFORMS
 DEPENDENCIES
   faker
   foreman
-  postgres-pr
+  pg
   rack-cors
   rails (= 5.2.4)
   rspec-rails
