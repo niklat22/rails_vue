@@ -3,15 +3,11 @@ source 'https://rubygems.org'
 gem 'rails', '5.2.4'
 gem 'webpacker'
 gem 'foreman'
-# gem 'pg'
+gem 'pg'
 gem 'rack-cors'
 
 group :development, :test do
   gem 'faker'         # Generates dummy data for tests
   gem 'rspec-rails'   # Test suite
   gem 'sqlite3'
-end
-
-group :production do
-  gem 'pg'
 end
