@@ -13,6 +13,15 @@ class ProjectsController < ApplicationController
       {id: 4, name: 'Toad', avatar_url: 'https://i.ya-webdesign.com/images/toad-transparent-face-mario-1.png'},
       {id: 5, name: 'Yoshi', avatar_url: 'https://www.nicepng.com/png/detail/350-3502424_neorigg-crit-le-mario-kart-yoshi-face.png'}
     ]
+    # @projects = Project.where(manager_id: @user.id).all.order("#{params[:sort]} ASC")
+    # @projects = Project.where(manager_id: @user.id).all.order(params[:sort])
+    @projects = Project.where(manager_id: @user.id).all.order(created_at: :DESC)
+
+    p "======sort"
+    p params[:sort]
+    p "======sort"
+    p @projects
+    p "======sort"
     render json: {status: 'SUCCESS', data: data}, status: :ok
     # render json: {status: 'SUCCESS', data: @projects}, status: :ok
   end
