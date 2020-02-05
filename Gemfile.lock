@@ -146,7 +146,7 @@ PLATFORMS
 DEPENDENCIES
   faker
   foreman
-  pg (~> 0.18)
+  pg
   rack-cors
   rails (= 5.2.4)
   rspec-rails
