@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '5.2.4'
 gem 'webpacker'
 gem 'foreman'
-
+gem 'pg'
 gem 'rack-cors'
 
 group :development, :test do
@@ -12,6 +12,6 @@ group :development, :test do
   gem 'sqlite3'
 end
 
-group :production do
-  gem 'pg'
-end
+# group :production do
+#   gem 'pg'
+# end
